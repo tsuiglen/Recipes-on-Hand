@@ -1,0 +1,88 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:0;
+}
+
+div{
+    margin:8px;
+    padding:10px;
+}
+
+form{
+    margin:8px;
+    padding:10px;
+}
+.header {
+    overflow: hidden;
+    display:flex;
+    justify-content:space-between;
+    padding: 30px 10px;
+    margin:0;
+}
+
+.linkBar{
+    display: inline-block;
+    margin-left:auto;
+    margin-right:0;
+}
+.backgroundImg{
+    background: url("../assets/img/white-bread-on-brown-wooden-board.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height:100%;
+}
+.linkBar a{
+  text-align: right;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 100%;
+  margin:0%;
+  vertical-align:middle;    
+  padding: 15px 20px;    
+}
+
+.linkBar a:hover {
+  background-color: #ddd;
+  color: black;
+  vertical-align:middle;  
+  height: 100%;
+}
+
+.mainLogo{
+    display: inline-block;
+}
+
+.mainLogo:hover{
+    transition: .3s ease all;
+    transform: translateY(-5px);
+}
+.mainLogo h1{
+	width: 200px;
+	color: #444444;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	text-align: left;
+    display: inline-block;
+    margin:0%;
+    height:100%;
+    vertical-align:middle;
+    
+    
+}
+.mainLogo img {
+	width: 24px;
+    display: inline-block;
+    height:100%;
+    vertical-align: middle;
+}
+
+.hook{
+    width:50%;
+}
