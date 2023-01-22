@@ -1,31 +1,113 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin:0;
+    margin: 0;
+    background-color: #ffe3c4;
 }
 
-div{
-    margin:8px;
-    padding:10px;
+h1 {
+    font-size: 24pt;
 }
 
-form{
-    margin:8px;
-    padding:10px;
+h2 {
+    font-size: 22pt;
 }
+
+h3 {
+    font-size: 20pt;
+}
+
+p {
+    font-size: 16pt;
+}
+
+div {
+    margin: 8px;
+    padding: 10px;
+}
+
+form {
+    margin: 8px;
+    padding: 10px;
+}
+
 .header {
     overflow: hidden;
-    display:flex;
-    justify-content:space-between;
-    padding: 30px 10px;
-    margin:0;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px 0px 10px;
+    margin: 0;
 }
 
-.linkBar{
-    display: inline-block;
-    margin-left:auto;
-    margin-right:0;
+.footer {
+    overflow: hidden;
+    padding: 8px 8px 8px 8px;
+    background: #f7f6f6;
+    margin: 0;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.4);
 }
-.backgroundImg{
+
+.footer .linkBarFoot {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 0;
+    vertical-align: middle;
+    align-items: middle;
+    margin-top: 1em;
+}
+
+.footer .linkBarFoot span {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.footer .linkBarFoot a {
+    text-align: right;
+    text-decoration: none;
+    font-size: 16px;
+    color: #7a7a7a;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+    margin: 0%;
+    vertical-align: middle;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+.footer .linkBarFoot a:hover {
+    vertical-align: middle;
+    height: 100%;
+    transition: .3s ease all;
+    background: #fff;
+    color: #495057;
+    text-decoration: none;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 16px;
+    color: #7a7a7a;
+}
+.linkBar {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 0;
+    vertical-align: middle;
+    margin-top: 1em;
+}
+
+.linkBar span {
+    display: inline;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.backgroundImg {
     background: url("../assets/img/white-bread-on-brown-wooden-board.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -33,56 +115,231 @@ form{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    height:100%;
+    height: 100%;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.4);
 }
-.linkBar a{
-  text-align: right;
-  text-decoration: none;
-  font-size: 17px;
-  color: black;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  height: 100%;
-  margin:0%;
-  vertical-align:middle;    
-  padding: 15px 20px;    
+
+.backgroundImg .reference {
+    padding: 0em 0em 0.5em 0.5em;
+    margin: 0;
+}
+
+.linkBar a {
+    text-align: right;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+    margin: 0%;
+    vertical-align: middle;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    align-items: center;
+    border-radius: 20px;
+
 }
 
 .linkBar a:hover {
-  background-color: #ddd;
-  color: black;
-  vertical-align:middle;  
-  height: 100%;
+    vertical-align: middle;
+    height: 100%;
+    transition: .3s ease all;
+    background: #fff;
+    color: #495057;
+    text-decoration: none;
 }
 
-.mainLogo{
+.mainLogo {
     display: inline-block;
 }
 
-.mainLogo:hover{
+.mainLogo:hover {
     transition: .3s ease all;
     transform: translateY(-5px);
 }
-.mainLogo h1{
-	width: 200px;
-	color: #444444;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-weight: bold;
-	font-size: 22px;
-	text-align: left;
+
+.mainLogo h1 {
+    width: auto;
+    color: #444444;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
     display: inline-block;
-    margin:0%;
-    height:100%;
-    vertical-align:middle;
-    
-    
+    margin: 0%;
+    height: 100%;
+    vertical-align: middle;
+
+
 }
+
 .mainLogo img {
-	width: 24px;
+    width: 48px;
     display: inline-block;
-    height:100%;
+    height: 100%;
     vertical-align: middle;
 }
 
-.hook{
-    width:50%;
+.hook {
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.hook .textBtns {
+    margin-top: 3em;
+    width: 35%;
+    justify-content: left;
+}
+
+.hook .registerDiv {
+    margin-left: auto;
+    display: inline-block;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+}
+
+.hook .registerDiv .register {
+    align-items: center;
+    margin-right: 5em;
+    display: inline-block;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgba(255, 255, 255, .8);
+    padding: 0.5em 2em 0em 2em;
+
+}
+
+.register p {
+    margin-bottom: 0.5em;
+}
+
+.register .registerCenter {
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.register .registerCenter button {
+    min-width: 130px;
+    height: 40px;
+    color: #232323;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-color: #232323;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px 5px 5px 5px;
+    background: #ffe3c4;
+    box-shadow: 0 5px #495057;
+
+}
+
+.register .registerCenter button:hover {
+    box-shadow: 0 3px #495057;
+    top: 1px;
+}
+
+.register .registerCenter button:active {
+    box-shadow: 0 0 #495057;
+    top: 5px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 4px 8px 4px 8px;
+    background: #ffffff;
+    color: black;
+    border-color: #232323;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+}
+
+.hook h2 {
+    font-size: 40px;
+}
+
+.hook .viewRecipesBtn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16pt;
+    min-width: 180px;
+    height: 60px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 40px;
+    border: 2px solid #495057;
+    background: #495057;
+}
+
+.hook .viewRecipesBtn:hover {
+    background: #fff;
+    color: #495057;
+    text-decoration: none;
+}
+
+.hook .viewRecipesBtn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hook .viewRecipesBtn a:hover {
+    color: #495057;
+}
+
+.hook .aboutUsBtn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-width: 180px;
+    height: 60px;
+    font-size: 16pt;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 40px;
+    border: 2px solid #495057;
+    background: transparent;
+}
+
+.hook .aboutUsBtn:hover {
+    background: #fff;
+    color: #495057;
+    text-decoration: none;
+}
+
+.hook .aboutUsBtn a {
+    text-decoration: none;
+    color: #495057;
+}
+
+.hook .aboutUsBtn a:hover {
+    color: #fff;
+}
+
+.hook .hookBtns {
+    display: flex;
 }
