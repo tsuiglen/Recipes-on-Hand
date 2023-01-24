@@ -1,0 +1,237 @@
+.backgroundImg {
+    background: url("../assets/img/white-bread-on-brown-wooden-board.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.4);
+}
+
+.backgroundImg .reference {
+    padding: 0em 0em 0.5em 0.5em;
+    margin: 0;
+}
+
+.hook {
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.hook .textBtns {
+    margin-top: 3em;
+    width: 35%;
+    justify-content: left;
+}
+
+.hook .registerDiv {
+    margin-left: auto;
+    display: inline-block;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+}
+
+.hook .registerDiv .register {
+    align-items: center;
+    margin-right: 5em;
+    display: inline-block;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgba(255, 255, 255, .8);
+    padding: 0.5em 2em 0em 2em;
+
+}
+
+.register p {
+    margin-bottom: 0.5em;
+}
+
+.register .registerCenter {
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.register .registerCenter button {
+    min-width: 130px;
+    height: 40px;
+    color: #232323;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-color: #232323;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px 5px 5px 5px;
+    background: #ffe3c4;
+    box-shadow: 0 5px #495057;
+
+}
+
+.register .registerCenter button:hover {
+    box-shadow: 0 3px #495057;
+    top: 1px;
+}
+
+.register .registerCenter button:active {
+    box-shadow: 0 0 #495057;
+    top: 5px;
+}
+
+.hook h2 {
+    font-size: 40px;
+}
+
+.hook .viewRecipesBtn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16pt;
+    min-width: 180px;
+    height: 60px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 40px;
+    border: 2px solid #495057;
+    background: #495057;
+}
+
+.hook .viewRecipesBtn:hover {
+    background: #fff;
+    color: #495057;
+    text-decoration: none;
+}
+
+.hook .viewRecipesBtn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hook .viewRecipesBtn a:hover {
+    color: #495057;
+}
+
+.hook .aboutUsBtn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-width: 180px;
+    height: 60px;
+    font-size: 16pt;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 40px;
+    border: 2px solid #495057;
+    background: transparent;
+}
+
+.hook .aboutUsBtn:hover {
+    background: #fff;
+    color: #495057;
+    text-decoration: none;
+}
+
+.hook .aboutUsBtn a {
+    text-decoration: none;
+    color: #495057;
+}
+
+.hook .aboutUsBtn a:hover {
+    color: #fff;
+}
+
+.hook .hookBtns {
+    display: flex;
+}
+
+.popular{
+    text-align: center;
+}
+
+.popular .row{
+    display: flex;
+    justify-content: center;
+}
+
+.popular .row .column{
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+}
+
+.popular .row .column img{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.31);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.newsletter{
+    text-align: center;
+}
+
+.newsletter .getInTouchInput{
+    display: inline-block;
+    margin-bottom:2em;
+}
+
+.newsletter span{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+
+}
+.newsletter .getInTouchInput input {
+	padding: 6px 8px 6px 8px;
+    margin: 0.5em;
+	border-color: #d6d6d6;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 3px 3px 3px 3px;
+    
+}
+
+.getInTouchInput .joinBtn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16pt;
+    min-width: 100px;
+    height: 50%;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 3px;
+    border: 2px solid #495057;
+    background: #495057;
+    vertical-align: middle;
+    padding: 6px 8px 6px 8px;
+    margin: 0.5em;
+}
+
+.getInTouchInput .joinBtn:hover {
+    background: #fff;
+    color: #495057;
+    text-decoration: none;
+}

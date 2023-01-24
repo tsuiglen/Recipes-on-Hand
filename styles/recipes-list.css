@@ -1,0 +1,8 @@
+.recipeSearch{
+    display: flex;
+    justify-content:space-between;
+}
+
+.recipeSearch .searchFilter{
+    display: inline-block;
+}

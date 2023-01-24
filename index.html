@@ -2,6 +2,8 @@
 <html lang="en">
 	<head>
 		<link rel="stylesheet" href="styles/styles.css">
+		<link rel="stylesheet" href="styles/headFoot.css">
+		<link rel="stylesheet" href="styles/index.css">
 	</head>
 	<div class = "backgroundImg">
 		<div class = "header">
@@ -134,7 +136,9 @@
 				</p>
 			</div>
 		</div>
+		<hr class="rounded">
 	</div>
+	
 	<form class = "newsletter">
 		<h3>
 			Get in Touch
@@ -142,9 +146,15 @@
 		<p>
 			Join our mailing list to receive email updates on cooking tips, new trending recipes, special promotions, and more!
 		</p>
-		<input type="text" value="Email address">
-		<input type="text" value="Full name">
-		<button> Join </button>
+		<div class ="getInTouchInput">
+			<span>
+				<input type="text" placeholder="Email address">
+				<input type="text" placeholder="Full name">
+				<button class="joinBtn"> Join </button>
+			</span>
+			
+		</div>
+		
 	</form>
 	<div class = "footer">
 		<div class="linkBarFoot">
@@ -165,5 +175,4 @@
 			© 2023 Recipes on Hand.  All rights reserved.
 		</p>
 	</div>
-
 </html>
