@@ -1,0 +1,105 @@
+.discussion h2{
+    padding-left: 1em;
+}
+
+.discussionComments{
+    padding: 8px 8px 8px 8px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.31);
+    background: #ffffff;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px 20px 20px 20px;
+    margin: 2em;
+}
+.discussionComments h3{
+    margin-top: 0;
+}
+.discussionComments img{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.31);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.31);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.discussionRow{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.discussionInput span{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.discussionInput .discussionImg{
+    width: 5%;
+}
+.discussionInput .discussionImg img{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.31);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.31);
+    border-radius: 20px 20px 20px 20px;
+    margin: 1em;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.discussionInput input{
+    height: 75px;
+    padding: 4px 8px 4px 8px;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+	background: #ffffff;
+	border-color: #232323;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 20px 20px 20px 20px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1em;
+}
+
+.discussionInput .title{
+    max-width: 80%;
+    margin-right: 0;
+}
+
+.discussionInput .post{
+    max-width: 80%;
+    height: 100px;
+    margin-right: 0;
+}
+.discussionInput button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16pt;
+    min-width: 100px;
+    height: 50%;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 3px;
+    border: 2px solid #495057;
+    background: #495057;
+    vertical-align: middle;
+    padding: 6px 8px 6px 8px;
+}
+
+.discussionInput button:hover {
+    background: #fff;
+    color: #495057;
+    text-decoration: none;
+}
+
+.discussionInput p, .postBtn, .discussionInput span{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 300px;
+    padding-right: 0;
+}
+

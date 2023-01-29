@@ -1,12 +1,12 @@
-.recipeSearch{
+.ingredientsSearch{
     display: flex;
     justify-content:space-between;
 }
 
-.recipeSearch h2{
+.ingredientsSearch h2{
     padding-left: 1em;
 }
-.recipeSearch .searchFilter{
+.ingredientsSearch .searchFilter{
     display: flex;
 }
 
@@ -35,14 +35,14 @@
     background: #495057;
     color: #fff;
 }
-.recipeList .row .column img{
+.ingredientsList .row .column img{
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.31);
     border-radius: 20px 20px 20px 20px;
     max-width: 100%;
     height: 200px;
 }
 
-.recipeList .row .column img:hover{
+.ingredientsList .row .column img:hover{
     transition: .3s ease all;
     transform: translateY(-5px);
 }

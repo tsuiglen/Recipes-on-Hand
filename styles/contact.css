@@ -1,0 +1,47 @@
+.contact *{
+    padding-left: 1em;
+}
+
+.contact p{
+    margin-left:2em;
+    margin-right: 2em;
+}
+
+.contact p input{
+    height: 50px;
+}
+
+.contact .message input{
+    height: 500px;
+    word-break:break-word;
+}
+
+.sendBtn{
+    display: flex;
+    justify-content: flex-end;
+}
+.contact button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16pt;
+    min-width: 100px;
+    height: 50%;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 3px;
+    border: 2px solid #495057;
+    background: #495057;
+    vertical-align: middle;
+    padding: 6px 8px 6px 8px;
+    margin-right: 2em;
+}
+
+.contact button:hover {
+    background: #fff;
+    color: #495057;
+    text-decoration: none;
+}

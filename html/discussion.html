@@ -3,6 +3,7 @@
 	<head>
 		<link rel="stylesheet" href="../styles/headFoot.css">
 		<link rel="stylesheet" href="../styles/styles.css">
+		<link rel="stylesheet" href="../styles/discussion.css">
 	</head>
 	<div class = "header">
 			<a href="../index.html">
@@ -25,7 +26,6 @@
 				
 			</div>
 	</div>
-	<hr>
 	<div class = "discussion">
 		<h2>
 			Discussion
@@ -34,16 +34,18 @@
 			<span>
 				<div class = "discussionImg">
 					<img src="../assets/img/avatar.png" width = "30" alt = "avatar profile">
-					<input value="Enter a title..."></input>
-					<p>
-						<input value="Enter your discussion post"></input>
-					</p>
-					
-					<button>Post</button>
 				</div>
+				<input class="title" placeholder="Enter a title..."></input>
 			</span>
+			<p>
+				<input class="post" placeholder="Enter your discussion post"></input>
+			</p>
+			<div class="postBtn">
+				<button>Post</button>
+			</div>
+			
 		</form>
-		<hr>
+		<hr class="rounded" >
 		<div class = "discussionComments">
 			<div class = "discussionRow">
 				<p>
@@ -86,7 +88,6 @@
 				</p>
 			</div>
 		</div>
-	<hr>
 	</div>
 	<div class = "footer">
 		<div class="linkBarFoot">
