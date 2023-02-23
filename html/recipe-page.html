@@ -39,12 +39,13 @@
 	<div class = "wrapper">
 		<div class = "sidebar">
 			<span class="icons">
-				<img src="../assets/icon/heart.png" width = "50" alt = "heart icon">
-				<img src="../assets/icon/facebook.png" width = "50" alt = "facebook icon">
-				<img src="../assets/icon/printer.png" width = "50" alt = "printer icon">
-				<img src="../assets/icon/email.png" width = "50" alt = "email icon">
+				<button class = "heart"><img src="../assets/icon/heart.png" width = "50" alt = "heart icon"></button>
+				<button class = "facebook"><img src="../assets/icon/facebook.png" width = "50" alt = "facebook icon"></button>
+				<button class = "print"><img src="../assets/icon/printer.png" width = "50" alt = "printer icon"></button>
+				<button class = "email"><img src="../assets/icon/email.png" width = "50" alt = "email icon"></button>
 			</span>
 		</div>
+
 		<div class = "cookInfo">
 			<span>
 				<img src="../assets/icon/hourglass.png" width = "50" alt = "hourglass">
@@ -272,6 +273,7 @@
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
 			</ol>
 		</div>
+		<script src = "../js/recipeBar.js"></script>
 		<div class = "slideshow-container">
 			  <!-- Full-width images with number and caption text -->
 			<div class="mySlides fade">
@@ -322,55 +324,60 @@
 		
 	</div>
 	<hr class="rounded">
-	<form class = "discussionInput">
-		<span>
-			<div class = "discussionImg">
-				<img src="../assets/img/avatar.png" width = "30" alt = "avatar profile">
-			</div>	
-			<input placeholder="Enter a comment..."></input>
-			<button>Post</button>
-		</span>
-	</form>
-	<div class = "filter">
-		<button>Filter</button>
-	</div>
-
-	<div class = "discussionComments">
-		<div class = "discussionRow">
-			<p>
-				
-				<h3>
+	<div class = "discussion">
+		<form class = "discussionInput">
+			<span>
+				<div class = "discussionImg">
 					<img src="../assets/img/avatar.png" width = "30" alt = "avatar profile">
-					Profile Name
-				</h3>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
-			</p>
+				</div>	
+				<input class = "post" placeholder="Enter a comment..."></input>
+				<div class="postBtn">
+					<button type = 'button'>Post</button>
+				</div>
+			</span>
+		</form>
+		<div class = "filter">
+			<button>Filter</button>
 		</div>
-	</div>
-	<div class = "discussionComments">
-		<div class = "discussionRow">
-			<p>
-				
-				<h3>
-					<img src="../assets/img/avatar.png" width = "30" alt = "avatar profile">
-					Profile Name
-				</h3>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
-			</p>
+	
+		<!-- <div class = "discussionComments">
+			<div class = "discussionRow">
+				<p>
+					
+					<h3>
+						<img src="../assets/img/avatar.png" width = "30" alt = "avatar profile">
+						Profile Name
+					</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
+				</p>
+			</div>
 		</div>
-	</div>
-	<div class = "discussionComments">
-		<div class = "discussionRow">
-			<p>
-				
-				<h3>
-					<img src="../assets/img/avatar.png" width = "30" alt = "avatar profile">
-					Profile Name
-				</h3>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
-			</p>
+		<div class = "discussionComments">
+			<div class = "discussionRow">
+				<p>
+					
+					<h3>
+						<img src="../assets/img/avatar.png" width = "30" alt = "avatar profile">
+						Profile Name
+					</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
+				</p>
+			</div>
 		</div>
+		<div class = "discussionComments">
+			<div class = "discussionRow">
+				<p>
+					
+					<h3>
+						<img src="../assets/img/avatar.png" width = "30" alt = "avatar profile">
+						Profile Name
+					</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
+				</p>
+			</div>
+		</div> -->
 	</div>
+	<script src = "../js/comments.js"></script>
 	<div class = "footer">
 		<div class="linkBarFoot">
 			<span>
