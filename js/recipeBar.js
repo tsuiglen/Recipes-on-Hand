@@ -37,7 +37,11 @@ fbBtn.addEventListener('click',function(){
 printBtn.addEventListener('click',function(){
     console.log("print button pressed");
     //use print function to open up the browser print window
-    window.print();
+    // window.print();
+    //utilize jQuery to print only selected divisions
+    jQuery('#printable1').print({
+        append: $("#printable2, #printable3, #printable4")
+    });
     
 })
 

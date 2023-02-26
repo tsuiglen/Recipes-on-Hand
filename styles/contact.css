@@ -45,3 +45,16 @@
     color: #495057;
     text-decoration: none;
 }
+.iframeHolder{
+    display: flex;
+    justify-content: center;
+
+}
+iframe{
+    padding-left: 0 !important;
+    margin-left: 1em;
+    height: 300px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+}
